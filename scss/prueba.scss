@@ -1,0 +1,206 @@
+@import "_prueba2.scss";
+
+body{
+
+    background-color: $bgBody;
+
+    }
+
+header{
+
+    background-color: white;
+
+}
+
+.backgroundMenu{
+
+    .backgroundMenu__link{
+
+
+        &--active{
+
+            color: $activeColor;
+            text-decoration: underline;
+
+        }
+
+    }
+
+}
+
+$tittleSize: 15 * 2;
+
+.usSection{
+
+    &__tittle{
+
+        font-size: $tittleSize;
+        color: $tittleColor;
+
+    }
+
+}
+
+
+.table{
+
+    &__th{
+
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        letter-spacing: 2px;
+
+    }
+
+    &__td{
+
+        color:rgb(35, 155, 11) ;
+        border: 2px solid rgb(243, 241, 243);
+        padding: 5px;
+
+    }
+
+    &__tr{
+
+        border: 2px solid rgb(243, 241, 243);
+        padding: 5px;
+
+    }
+
+}
+
+$buttonSize:10 + 10px;
+
+.buttons{
+
+    &__button{
+
+        color: complement($color: #000000);
+        font-size: $buttonSize;
+
+    }
+
+}
+
+.descriptionBudha{
+
+    &__productsName{
+        
+        color: rgb(161, 151, 12);
+
+    }
+
+}
+
+.descriptionFlora{
+
+    &__productName{
+
+        color: rgb(130, 5, 134);
+
+    }
+
+}
+
+.descriptionRa{
+
+    &__productName{
+
+        color: rgb(5, 189, 14);
+
+    }
+
+}
+
+.descriptionZeus{
+
+    &__productName{
+
+        color: rgb(5, 189, 14);
+
+    }
+
+}
+
+/*Extend*/
+
+.pAboutUs{
+    margin-left: 5px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 2;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    margin-top: 40px
+}
+
+.pAboutUs1{
+
+    @extend .pAboutUs;
+    color: rgb(110, 25, 110);
+
+}
+
+/*Mixin*/
+
+@mixin titulo($fontTittle, $alignTittle, $colorTittle){
+
+    font-size: $fontTittle;
+    text-align: $alignTittle;
+    color: $colorTittle;
+    z-index: 1;
+
+}
+
+h1{
+
+    @include titulo(45px, center ,black )
+
+}
+
+/*footer Styles*/
+
+$footerSize: 30px - 5px;
+
+footer{
+
+    margin-top: 50px;
+    height: 5vw;
+    background-color:rgb(255, 255, 255);
+    grid-area: footer;
+
+    .footerText{
+
+        color: rgb(110, 25, 110);
+        text-align: center;
+        font-size: $footerSize;
+        text-shadow: -3px 3px rgb(148, 148, 148);
+
+    }
+
+}
+
+.error{
+
+        width: 100%;
+        height: 500px;
+        background-color: grey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        h2{
+            color: brown;
+            font-size: 60px;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+        }
+
+        h3{
+            color: brown;
+            font: 35px;
+            letter-spacing: 2px;
+        }
+
+}

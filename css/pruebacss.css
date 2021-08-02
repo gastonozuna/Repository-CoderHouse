@@ -1,0 +1,93 @@
+body {
+  background-color: white; }
+
+header {
+  background-color: white; }
+
+.backgroundMenu .backgroundMenu__link--active {
+  color: black;
+  text-decoration: underline; }
+
+.usSection__tittle {
+  font-size: 30;
+  color: #6e196e; }
+
+.table__th {
+  color: white;
+  font-size: 25px;
+  letter-spacing: 2px; }
+
+.table__td {
+  color: #239b0b;
+  border: 2px solid #f3f1f3;
+  padding: 5px; }
+
+.table__tr {
+  border: 2px solid #f3f1f3;
+  padding: 5px; }
+
+.buttons__button {
+  color: black;
+  font-size: 20px; }
+
+.descriptionBudha__productsName {
+  color: #a1970c; }
+
+.descriptionFlora__productName {
+  color: #820586; }
+
+.descriptionRa__productName {
+  color: #05bd0e; }
+
+.descriptionZeus__productName {
+  color: #05bd0e; }
+
+/*Extend*/
+.pAboutUs, .pAboutUs1 {
+  margin-left: 5px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 2;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  margin-top: 40px; }
+
+.pAboutUs1 {
+  color: #6e196e; }
+
+/*Mixin*/
+h1 {
+  font-size: 45px;
+  text-align: center;
+  color: black;
+  z-index: 1; }
+
+/*footer Styles*/
+footer {
+  margin-top: 50px;
+  height: 5vw;
+  background-color: white;
+  grid-area: footer; }
+  footer .footerText {
+    color: #6e196e;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: -3px 3px #949494; }
+
+.error {
+  width: 100%;
+  height: 500px;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  .error h2 {
+    color: brown;
+    font-size: 60px;
+    margin-bottom: 30px;
+    letter-spacing: 1px; }
+  .error h3 {
+    color: brown;
+    font: 35px;
+    letter-spacing: 2px; }
