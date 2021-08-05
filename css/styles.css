@@ -44,7 +44,7 @@ nav a:hover{
 }
 
 .menuIndex{
-    background-image: url("./images/homeImage.jpg");
+    background-image: url("./images/homeImage.png");
     background-position: center;
     height: 60%;
     text-align: center;
@@ -418,7 +418,7 @@ select{
     }    
 
     .menuIndex{
-        background-image: url("./images/homeImage.jpg");
+        background-image: url("./images/homeImage.png");
         background-position: center;
         height: 100%;
         text-align: center;
@@ -589,7 +589,7 @@ select{
     }
 
     .menuIndex{
-        background-image: url("./images/homeImage.jpg");
+        background-image: url("./images/homeImage.png");
         background-position: center;
         height: 100%;
         text-align: center;
