@@ -114,7 +114,7 @@ main{
 /*Lists styles*/
 
 li{
-    color: rgb(110, 25, 110);
+    color: rgb(230, 230, 230);
     list-style: none;
 }
 
@@ -159,7 +159,7 @@ td p{
 .icon{
     color: rgb(0, 0, 0);
     font-size: 50px;
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 
 .icon:hover{
@@ -457,7 +457,7 @@ select{
     .aboutUsGrid{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 100px 120px 700px 100px;
+        grid-template-rows: 100px 120px 800px 100px;
         grid-template-areas: "header"
                              "nav"
                              "main"
